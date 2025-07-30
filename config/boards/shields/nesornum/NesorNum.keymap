@@ -29,7 +29,7 @@
                 &none           &none           &none           &none
                 &none           &none           &none           &bootloader
                 &none           &none           &none           &bt BT_CLR
-                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &KP F
+                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &kp F
             >;
         };
     };
