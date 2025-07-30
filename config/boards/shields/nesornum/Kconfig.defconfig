@@ -1,6 +1,0 @@
-if SHIELD_NESORNUM
-
-config ZMK_KEYBOARD_NAME
-    default "NesorNum"
-
-    endif
