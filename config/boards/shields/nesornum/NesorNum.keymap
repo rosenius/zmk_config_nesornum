@@ -27,7 +27,7 @@
             bindings = 
             <
                 &none           &bt BT_CLR_ALL  &none           &none
-                &out OUT_BLE    &out OUT_USB    &OUT_TOG           &none
+                &out OUT_BLE    &out OUT_USB    &out OUT_TOG    &none
                 &none           &none           &none           &bootloader
                 &none           &none           &none           &bt BT_CLR
                 &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &kp F
