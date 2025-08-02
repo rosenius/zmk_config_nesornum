@@ -19,7 +19,7 @@
 
         default_layer {
             bindings = <
-&mo 1      &Telefonnummer  &kp C          &kp SV_O_UMLAUT
+&mo 1      &Telefonnummer  &kp C          &kp kp A
 &kp KP_N7  &kp KP_N8       &kp KP_N9      &kp SV_STAR
 &kp KP_N4  &kp KP_N5       &kp KP_N6      &kp SV_MINUS
 &kp KP_N1  &kp KP_N2       &kp KP_N3      &kp SV_PLUS
