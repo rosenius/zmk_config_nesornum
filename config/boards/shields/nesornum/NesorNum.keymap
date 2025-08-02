@@ -23,18 +23,6 @@
         };
     };
 
-    behaviors {
-        deep_sleep: deep_sleep {
-            compatible = "zmk,behavior-hold-tap";
-            label = "DEEP_SLEEP";
-            bindings = <&soft_off>, <&none>;
-
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <0 1>;
-            tapping-term-ms = <1>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
