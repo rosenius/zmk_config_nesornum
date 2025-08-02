@@ -4,16 +4,25 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    macros {
+        Telefonnummer: Telefonnummer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N0 &kp N7 &kp N2 &kp N3 &kp N3 &kp N3 &kp N2 &kp N4 &kp N7 &kp N3>;
+            label = "TELEFONNUMMER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&mo 1      &kp A      &kp C          &kp SLASH
-&kp KP_N7  &kp KP_N8  &kp KP_N9      &kp STAR
-&kp KP_N4  &kp KP_N5  &kp KP_N6      &kp MINUS
-&kp KP_N1  &kp KP_N2  &kp KP_N3      &kp PLUS
-&kp KP_N0  &kp COMMA  &kp BACKSPACE  &kp RET
+&mo 1      &Telefonnummer  &kp C          &kp SLASH
+&kp KP_N7  &kp KP_N8       &kp KP_N9      &kp STAR
+&kp KP_N4  &kp KP_N5       &kp KP_N6      &kp MINUS
+&kp KP_N1  &kp KP_N2       &kp KP_N3      &kp PLUS
+&kp KP_N0  &kp COMMA       &kp BACKSPACE  &kp RET
             >;
         };
 
