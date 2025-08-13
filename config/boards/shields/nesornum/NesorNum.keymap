@@ -45,7 +45,7 @@
 
         bt_layer {
             bindings = <
-&none         &bt BT_CLR_ALL  &none         &none
+&none         &bt BT_CLR_ALL  &none         &kp KP_NUMLOCK
 &out OUT_BLE  &out OUT_USB    &out OUT_TOG  &none
 &none         &none           &none         &bootloader
 &none         &none           &none         &bt BT_CLR
