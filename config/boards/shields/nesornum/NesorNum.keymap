@@ -57,7 +57,7 @@
             bindings = <
 &trans    &trans  &trans  &trans
 &trans    &trans  &trans  &trans
-&trans    &trans  &trans  &trans
+&trans    &trans  &trans  &studio_unlock
 &Comfyui  &trans  &trans  &trans
 &trans    &trans  &trans  &trans
             >;
